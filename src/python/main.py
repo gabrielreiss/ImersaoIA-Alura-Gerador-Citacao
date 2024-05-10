@@ -4,11 +4,19 @@ from pathlib import Path
 import hashlib
 import google.generativeai as genai
 from dotenv import dotenv_values
-from google.api_core.client_options import ClientOptions
+#import google.cloud.documentai as documentai
+#from google.api_core.client_options import ClientOptions
 # Set endpoint to EU 
-options = ClientOptions(api_endpoint="eu-documentai.googleapis.com:443")
+#options = ClientOptions(api_endpoint="eu-documentai.googleapis.com:443")
 # Instantiates a client
-client = documentai.DocumentProcessorServiceClient(client_options=options)
+#client = documentai.DocumentProcessorServiceClient(client_options=options)
+
+#api_endpoint: str = "europe-west4-prediction-aiplatform.googleapis.com"
+#
+#from google.cloud import aiplatform
+#client_options = {"api_endpoint": api_endpoint}
+#client = aiplatform.gapic.PredictionServiceClient(client_options=client_options)
+
 
 config = dotenv_values(".env")
 
