@@ -17,3 +17,7 @@ para cada pdf multiplica o token de saída
 exemplos
 
 configurações avançadas top_k, top_p, temperatura, explicação sobre o que é cada uma
+
+
+fazer um twitte sobre um artigo científico?
+
