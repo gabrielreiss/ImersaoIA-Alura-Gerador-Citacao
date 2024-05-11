@@ -1,0 +1,19 @@
+ias que le artigos científicos
+
+fazer no streamlit
+
+faz o upload de pdf
+
+opção citações diretas e indiretas
+
+botão para ele dar dar outras versões
+
+insira a sua api_key
+
+a análise custará R$ x
+
+para cada pdf multiplica o token de saída
+
+exemplos
+
+configurações avançadas top_k, top_p, temperatura, explicação sobre o que é cada uma
